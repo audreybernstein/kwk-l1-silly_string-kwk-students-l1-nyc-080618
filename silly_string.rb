@@ -7,7 +7,7 @@ puts "My favorite word is #{your_favorite_word}"
 
 # Challenge 2: Capitalize every letter in your_favorite_word using a built in Ruby method
 
-favorite_word_in_all_caps = #{your_favorite_word}.upcase
+favorite_word_in_all_caps = your_favorite_word.upcase
 
 puts "MY FAVORITE WORD IS #{favorite_word_in_all_caps}"
 
@@ -23,7 +23,7 @@ puts lowercased_phrase
 
 big_word = "supercalifragilisticexpialidocious"
 
-letter_count = big_word # Put a . after big_word and use a String method.
+letter_count = big_word.length # Put a . after big_word and use a String method.
 
 puts "There are #{letter_count} in #{big_word}"
 
